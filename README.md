@@ -1,65 +1,93 @@
-# 👋 Hey there, I'm Srusti GSM
+# 👋 Hi, I'm Srusti GSM
 
-🎓 CSE Student | 💻 Developer | 🚀 AI & Big Data Enthusiast  
-Welcome to my GitHub space where I turn ideas into reality with code.
+💻 CSE Undergrad @ REVA University  
+🔐 AI & Security Enthusiast | 🧠 ML Explorer | 👩‍💻 Developer  
+
+I enjoy building real-world tech that blends AI, security, and clean web experiences.
 
 ---
 
-## 🛠️ Tech Stack & Tools I Use
+## 🔧 Tech Stack & Tools
 
 **Languages:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-**Libraries & Frameworks:**  
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+**Web & Frontend:**  
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![REST APIs](https://img.shields.io/badge/API-FF6F00?style=flat-square)
+![MediaDevices API](https://img.shields.io/badge/MediaDevicesAPI-4285F4?style=flat-square)
 
-**Tools:**  
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=flat&logo=powerbi&logoColor=black)
+**Frameworks & Libraries:**  
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
----
-
-## 📚 Certifications
-
-- 🧠 **Artificial Intelligence** – Rinex & IIT Roorkee  
-- 💡 **JavaScript** – Scaler  
-- ☕ **Programming in Java** – Infosys Springboard  
-- 📊 **Power BI** – (Completed)  
-- 🔍 **Big Data Analytics** – Academic Project Experience  
-- 🛠️ **CloudSim & Cloud Computing** – Hands-on Code  
-- 🌐 **Blockchain Fundamentals** – Beginner Level  
-- 🌱 **Learning:** CSS, Metaverse VR, Virtual Machines
-
+**Databases & Tools:**  
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
 ---
 
-## ✨ Fun Facts
+## 💡 Projects
 
-- 🧠 I believe learning never stops
-- 🍵 Productivity spikes after chai ☕
-- 🌸 Wore pink & blue half saree with red floral backdrop (vibes check ✅)
-- 📝 I write clean code & clearer documentation
+### 🔐 CryptoAlgorithmIdentifier
+**Tech:** PyTorch, Flask, Cryptography Libraries  
+• ML model to classify AES-256, RSA, Blowfish, and Fernet using CNN with attention (82% accuracy)  
+• Flask-based web app for real-time encryption prediction  
+• Trained on 8000 ciphertext samples
+
+### 🏧 ATM Face Recognition System
+**Tech:** Flask, OpenCV, SQLite, JS  
+• Real-time face authentication with OpenCV + dlib (85% accuracy)  
+• Liveness detection (blink, smile, head movement)  
+• Secured transactions with PIN hashing and AES-256 face embedding encryption  
+• RESTful API + responsive webcam-integrated frontend
+
+### 🌿 Urban Eye – Sustainability Dashboard
+**Tech:** HTML, CSS, JS, Python, Data Visualization  
+• Visualizes urban environmental metrics: air, water, and energy usage  
+• Integrates multiple datasets in an interactive UI  
+• Aids in urban decision-making through visual insights
+
+### 🌐 SMPACE-2025 Conference Website
+**Tech:** HTML, CSS, JS  
+• Volunteer project for REVA University’s civil engineering conference  
+• Responsive frontend for registrations and event info  
+• Clean, modular codebase
 
 ---
 
-## 📈 GitHub Stats
+## 🎓 Certifications
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SrustiSulipalmath&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SrustiSulipalmath&layout=compact&theme=tokyonight)
+• JavaScript – Scaler (2024)  
+• Programming using Java – Infosys Springboard (2024)  
+• Artificial Intelligence – Rinex & IIT Roorkee (2022)  
+• Python Bootcamp – Udemy (2025)  
+• Power BI – Microsoft / Self-learned  
 
 ---
 
-## 📫 Let's Connect
-- 📧 Email: `srustisulipalmath@example.com`
-- 💼 LinkedIn: [linkedin.com/in/srusti-sulipalmath-7a3734245 ]
+## 📊 GitHub Stats
 
+![Srusti's GitHub stats](https://github-readme-stats.vercel.app/api?username=SrustiSulipalmath&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SrustiSulipalmath&layout=compact&theme=radical)
+
+---
+
+## 📫 Reach Me At
+
+📧 **Email:** srustisulipalmath@gmail.com  
+🔗 **LinkedIn:** [srusti-sulipalmath-7a3734245](https://linkedin.com/in/srusti-sulipalmath-7a3734245)  
+🌐 **GitHub:** [github.com/SrustiSulipalmath](https://github.com/SrustiSulipalmath)
 
 ---
 
