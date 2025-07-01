@@ -23,7 +23,7 @@ I enjoy building real-world tech that blends AI, security, and clean web experie
 ![MediaDevices API](https://img.shields.io/badge/MediaDevicesAPI-4285F4?style=flat-square)
 
 **Frameworks & Libraries:**  
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
