@@ -84,14 +84,6 @@ Secure biometric authentication for ATMs
 • Flask API + JS webcam frontend  
 🔗 **[Repo Link](https://github.com/SrustiSulipalmath/ATM-with-Face-Recognition-Authentication.git)** 
 
----
-
-**🌿 Urban Eye – Sustainability Dashboard**  
-Interactive urban metrics visualizer  
-• Air quality, water, energy usage insights  
-• Multi-dataset integration with Python  
-• Responsive HTML/CSS/JS UI for decision support  
-
 
 ---
 
