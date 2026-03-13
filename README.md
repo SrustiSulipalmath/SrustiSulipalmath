@@ -62,8 +62,9 @@ Volunteer-built responsive site for REVA University's civil engineering conferen
 • Modern HTML, CSS, JS frontend  
 • Registration forms, event schedules & info sections  
 • Clean, modular & fully mobile-optimized  
-🔗 **[Live Site](https://www.reva.edu.in/events/9th-international-conference-smpace-2025)**  
-*(Swap with your custom repo/demo if available!)*
+🔗 **[Live Site](https://www1.reva.edu.in/SMPACE2025/)** 
+🔗 **[Repo Link](https://github.com/SrustiSulipalmath/SMPACE2025.git)** 
+
 
 ---
 
@@ -72,7 +73,7 @@ ML classifier detects encryption from ciphertext samples
 • CNN + attention in PyTorch → **82% accuracy**  
 • Trained on 8000+ samples (AES-256, RSA, Blowfish, Fernet)  
 • Real-time Flask web app for predictions  
-🔗 **[Repo Link](https://github.com/SrustiSulipalmath/CryptoAlgorithmIdentifier)** *(update when public)*
+🔗 **[Repo Link](https://github.com/SrustiSulipalmath/CryptoGraphyAlgorithmIdentifier.git)** 
 
 ---
 
@@ -81,7 +82,7 @@ Secure biometric authentication for ATMs
 • OpenCV + dlib face detection & liveness check (blink/smile/head move) → **85% acc**  
 • AES-256 encrypted embeddings + hashed PINs  
 • Flask API + JS webcam frontend  
-🔗 **[Repo Link](https://github.com/SrustiSulipalmath/ATM-Face-Recognition)** *(update when public)*
+🔗 **[Repo Link](https://github.com/SrustiSulipalmath/ATM-with-Face-Recognition-Authentication.git)** 
 
 ---
 
@@ -90,7 +91,7 @@ Interactive urban metrics visualizer
 • Air quality, water, energy usage insights  
 • Multi-dataset integration with Python  
 • Responsive HTML/CSS/JS UI for decision support  
-🔗 **[Repo Link](https://github.com/SrustiSulipalmath/Urban-Eye)** *(update when public)*
+
 
 ---
 
@@ -119,5 +120,5 @@ Interactive urban metrics visualizer
 
 <div align="center">
   <i>✨ Moving in silence, but making waves ✨</i><br><br>
-  <sub>Let's connect — open to collab on AI/security projects!</sub>
+  <sub>Let's connect — open to collab on projects!</sub>
 </div>
