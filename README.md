@@ -185,11 +185,11 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer&text=✨%20Moving%20in%20silence%2C%20but%20making%20waves%20✨&fontSize=27&fontAlignY=70&descAlignY=60&descAlign=center" width="100%" />
+</div>
 
 <div align="center">
-  <i>✨ Moving in silence, but making waves ✨</i>
-  <br><br>
   <sub>💡 Open to collaborate on AI, Security & Web projects</sub>
   <br>
   <sub>⭐ Star my repositories if you find them useful!</sub>
