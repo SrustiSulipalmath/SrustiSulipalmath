@@ -31,6 +31,6 @@ jobs:
           
       # Update recent activity (optional)
       - name: Recent activity
-        uses: Readme-Workflows/recent-activity@v2
+        uses: readme-Workflows/recent-activity@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
