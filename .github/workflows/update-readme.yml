@@ -3,32 +3,34 @@ name: Update README
 on:
   schedule:
     - cron: '0 0 * * *'  # Daily
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
-      # Update recent activity
+      # Generate snake animation
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: SrustiSulipalmath
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          
+      # Deploy to output branch
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: ./
+          publish_branch: output
+          
+      # Update recent activity (optional)
       - name: Recent activity
         uses: Readme-Workflows/recent-activity@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      # Generate snake animation
-      - name: Generate snake animation
-        uses: Platane/snk@master
-        with:
-          github_user_name: SrustiSulipalmath
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          
-      # Commit changes
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Update README" || exit 0
-          git push
