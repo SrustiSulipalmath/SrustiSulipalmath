@@ -2,25 +2,28 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
-  workflow_dispatch:      # Allows manual trigger
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:      # Manual trigger
   push:
-    branches: [ main ]    # Runs when you push to main
+    branches: [ main ]    # On push to main
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Force Node.js 24
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # Required to push changes
-      pages: write         # Required for deployment
-      id-token: write      # Required for authentication
+      contents: write
+      pages: write
+      id-token: write
       
     steps:
-      # Step 1: Checkout the repository
+      # Step 1: Checkout with latest version
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
       
-      # Step 2: Generate Snake Animation (This works!)
+      # Step 2: Generate Snake Animation
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -31,18 +34,17 @@ jobs:
       
       # Step 3: Deploy Snake to output branch
       - name: Deploy Snake to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4  # Updated to v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           destination_dir: ./
           publish_branch: output
           
-      # Step 4: Update README with recent activity (FIXED VERSION)
+      # Step 4: Update recent activity (FIXED - removed GITHUB_TOKEN)
       - name: Update recent activity
-        uses: Readme-Workflows/recent-activity@main  # Changed from v2 to main
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: Readme-Workflows/recent-activity@main
+        # Removed GITHUB_TOKEN input as it's not supported
           
       # Step 5: Commit and push changes
       - name: Commit and push changes
@@ -50,5 +52,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update README with recent activity"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update README with recent activity [skip ci]"
           git push
