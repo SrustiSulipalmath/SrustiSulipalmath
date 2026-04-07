@@ -66,12 +66,6 @@
   <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
 </p>
 
-### Skills Overview
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,flask,pytorch,opencv,sqlite,mysql,git,vscode&perline=6" />
-</p>
-
 ---
 
 ## 🚀 Featured Projects
